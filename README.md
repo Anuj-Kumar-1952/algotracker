@@ -151,14 +151,26 @@ com.anuj.algotracker
 
 
 ---
+## 📊 Phase 5 – Advanced & Polish (Planned)
 
+These items are planned and not yet implemented:
+
+- 📌 Dashboard summary endpoint  
+  - Aggregate stats like total problems, solved vs TODO, topic-wise counts, etc.
+- ✅ Better validation & global exception handling  
+  - Use `@ControllerAdvice` + custom exception classes for clean error responses  
+  - Stronger request validation with `@Valid` and custom messages
+- 🧾 Swagger/OpenAPI docs  
+  - Auto-generated API documentation with UI (e.g., Springdoc OpenAPI + Swagger UI)
+- 📦 Postman collection  
+  - Export and include `/postman/AlgoTracker.postman_collection.json` for easy API testing
+
+---
 📊 Future Enhancements (Phase 5+)
 
-
 🧪 Add JUnit + Mockito tests for key services
-
+📈 Add analytics dashboard for progress & topic-wise performance
 🧾 Integrate Swagger/OpenAPI for API documentation
-
 🌐 Deploy to Render / AWS for demo link
 
 ---
